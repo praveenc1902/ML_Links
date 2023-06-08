@@ -1,8 +1,10 @@
-Linear Regression High Level Theory 
+:::: Linear Regression(Lasso,Ridge) ::::
+
 https://www.analyticsvidhya.com/blog/2021/06/linear-regression-in-machine-learning/
 
 https://towardsdatascience.com/linear-regression-models-4a3d14b8d368
  
 https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/
 
+https://www.datacamp.com/tutorial/tutorial-lasso-ridge-regression
 
