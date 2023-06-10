@@ -31,4 +31,12 @@ Lasso -- no square of coeefeicent * multiplied by lambda/alpha
 
 When we have few features which are real impact to the linear regression then Lasso is the best 
 
+Lasso Equation   --->   È(y-y`)**2+ alpha*È(m) 
+
+Ridge Equation   --->   È(y-y`)**2+ alpha*È(m)**2
+
+
+
+
+
 
