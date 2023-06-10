@@ -10,7 +10,25 @@ LOGISTIC REGRESSION THEORY
 -- It uses log() --> to calculate the difference b/w actual and predicted value, i mean --loss function in logistic regression uses log 
 signoid function -> 1/1-e**x
 
--- Logistic Regression 
+Linear regression uses Ordinary Least Squares (OLS) i.e distance-minimizing approximation while Logistic regression uses Maximum Likelihood Estimation (MLE) approach i.e it determines the parameters(mean and variance)that are maximizing the likelihood to produce the desired output.
+
+Logistic Regression uses a sigmoid or logit function which will squash the best fit straight line that will map any values including the exceeding values from 0 to 1 range. So it forms an “S” shaped curve.
+
+Sigmoid fun removes the effect of outlier and makes the output between 0 to 1
+
+Logistic regression cannot handle a large number of categorical features/variables.
+
+It is vulnerable to overfitting.
+
+It can’t solve the non-linear problem with the logistic regression which is why it requires a transformation of non-linear features.
+
+Logistic regression will not perform well with independent variables that are not correlated to the target variable and are very similar or correlated to each other.
+
+
+
+
+
+
 
 
 
