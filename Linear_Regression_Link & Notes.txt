@@ -11,6 +11,7 @@ https://www.datacamp.com/tutorial/tutorial-lasso-ridge-regression
 --------------------------
 HIGH LEVEL EXPLANATIO OF LASSO & RIDGE
 --------------------------
+--> Linear Regression used Least Squared Error as the COST FUNCTOIN
 --> Linear Regression is more biased, it gives more importance to features which will have more impact in the data
 So, Linear Regression tends to over fit OR Under Fit 
 
