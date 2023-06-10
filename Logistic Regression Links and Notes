@@ -1,0 +1,17 @@
+https://www.analyticsvidhya.com/blog/2021/10/building-an-end-to-end-logistic-regression-model/
+
+
+------------
+LOGISTIC REGRESSION THEORY
+------------
+
+-- Logistic Regression Value Rnages from 0-1
+-- Logistic Regression used Sigmoid Function to calcualte the classifiaction value 
+
+signoid function -> 1/1-e**x
+
+-- Logistic Regression 
+
+
+
+
