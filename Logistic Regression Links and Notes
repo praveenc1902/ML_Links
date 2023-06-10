@@ -7,7 +7,7 @@ LOGISTIC REGRESSION THEORY
 
 -- Logistic Regression Value Rnages from 0-1
 -- Logistic Regression used Sigmoid Function to calcualte the classifiaction value 
-
+-- It uses log() --> to calculate the difference b/w actual and predicted value, i mean --loss function in logistic regression uses log 
 signoid function -> 1/1-e**x
 
 -- Logistic Regression 
