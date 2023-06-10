@@ -29,7 +29,7 @@ after selecting the node weather to say yes or no, low entrophy means - say yes 
 Information Gain is the decrease in the entrophy 
 
 
-Gini Index -- 
+Gini Index -- is a powerful measure of the randomness or the impurity or entropy in the values of a dataset.
 
 Gini Impurity -- is a measurement of the likelihood of an incorrect classification of a new instance of a random variable
 
