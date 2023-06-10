@@ -1,0 +1,63 @@
+Decision Tree work for both Classification and Regression 
+
+Root Node
+
+Decision Node
+
+Terminal Node 
+
+Pruning -- Cutting down some nodes to stop overfitting 
+
+Decision trees are nothing but a bunch of if-else statements in layman terms. It checks if the condition is true and if it is then it goes to the next node attached to that decision.
+
+Entrophy -- is the amount of uncertainty in the dataset OR  measure of disorder
+
+Always remember that the higher the Entropy, the lower will be the purity and the higher will be the impurity.
+
+p+ is the probability of positive class
+p– is the probability of negative class
+S is the subset of the training example
+
+E(S) = -p+log(p+) -p(-)logp(-)
+
+Information Gain --> Information gain measures the reduction of uncertainty given some feature and it is also a deciding factor for which attribute should be selected as a decision node or root node.
+It is just entropy of the full dataset – entropy of the dataset given some feature.
+
+
+after selecting the node weather to say yes or no, low entrophy means - say yes , high entrophy means - say no  
+
+Information Gain is the decrease in the entrophy 
+
+
+Gini Index -- 
+
+Gini Impurity -- is a measurement of the likelihood of an incorrect classification of a new instance of a random variable
+
+
+when to stop splitting ::
+Usually, real-world datasets have a large number of features, which will result in a large number of splits, which in turn gives a huge tree. Such trees take time to build and can lead to overfitting. That means the tree will give very good accuracy on the training dataset but will give bad accuracy in test data.
+
+
+Hyper Parameter tuning in Decision Tree :::
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+max_depth :  The more the value of max_depth, the more complex your tree will be. The training error will off-course decrease if we increase the max_depth value but when our test data comes into the picture, we will get a very bad accuracy
+
+
+min_samples_split  :   	we specify the minimum number of samples required to do a spilt. For example, we can use a minimum of 10 samples to reach a decision. That means if a node has less than 10 samples then using this parameter, we can stop the further splitting of this node and make it a leaf node
+
+max_features  ::  it helps us decide what number of features to consider when looking for the best split.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Pruning
+It helps in improving the performance of the tree by cutting the nodes or sub-nodes which are not significant. It removes the branches which have very low importance.
+
+There are mainly 2 ways for pruning:
+
+Pre-pruning – we can stop growing the tree earlier, which means we can prune/remove/cut a node if it has low importance while growing the tree.
+Post-pruning – once our tree is built to its depth, we can start pruning the nodes based on their significance.
+
+
+
+
